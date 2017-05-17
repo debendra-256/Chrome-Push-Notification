@@ -1,0 +1,18 @@
+{
+ 
+  "name": "Debendra Notification",
+  "description": "This extension by debendra256",
+   "manifest_version": 2,
+  "version": "1.0",
+
+  "permissions": [
+    "notifications"
+  ],
+  "browser_action": {
+    "default_icon": "img/myimg.png",
+    "default_popup": "popup.html",
+
+    "icons": { "128": "myimg.png" }
+  }
+}
+
